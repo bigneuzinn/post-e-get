@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post e Get</title>
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+    a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        text-align: center;
+        color: #555;
+    }
+    .table-container {
+        width: 100%;
+        max-width: 800px;
+        overflow-x: auto;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 auto;
+        background-color: #fff;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    thead tr {
+        background-color: #007bff;
+        color: #fff;
+    }
+    th, td {
+        padding: 12px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+    td {
+        color: #333;
+    }
+    .titulo {
+        font-weight: bold;
+    }
+    tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tbody tr:hover {
+        background-color: #e0e7ff;
+    }
+</style>
+
+
+
+
+<body>
+    
+    <a href="post.html">↩</a>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <h1> Cadastros </h1>
+
+                    <!-- Dados que foram pegos e estão sendo escritos -->
+                    <td class="titulo"> ID: </td>
+                    <td class="titulo"> Nome: </td>
+                    <td class="titulo"> Sobrenome: </td>
+                    <td class="titulo"> Telefone: </td>
+                    <td class="titulo"> RG: </td>
+                    <td class="titulo"> CPF: </td>
+                    <td class="titulo"> Idade: </td>
+                    <td class="titulo"> Curso: </td>
+                    <td class="titulo"> Escola: </td>
+                </tr>
+            </thead>
+            <tbody id="tbody-corpo"></tbody>
+        </table>
+    </div>
+    <script src="get.js"></script>
+
+
+</body>
+</html>

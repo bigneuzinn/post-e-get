@@ -1,0 +1,26 @@
+{
+    "cadastro": [
+      {
+        "id": "2e89",
+        "nome": "Vinicius",
+        "sobrenome": "Lucas",
+        "telefone": "12345678900",
+        "RG": "361736832",
+        "CPF": "212173238",
+        "idade": "17",
+        "curso": "Desenvolvimento de sistemas",
+        "escola": "Senai Nami Jafet"
+      },
+      {
+        "id": "80bc",
+        "nome": "Felipe",
+        "sobrenome": "Oliveira",
+        "telefone": "123456431",
+        "RG": "367261813",
+        "CPF": "318731608",
+        "idade": "17",
+        "curso": "Desenvolvimento de sistemas",
+        "escola": "Senai Nami Jafet"
+      }
+    ]
+  }
